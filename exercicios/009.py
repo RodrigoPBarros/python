@@ -1,5 +1,7 @@
 n = int(input("Digite um número inteiro: "))
+
 print("======Resultado======")
+
 print(f"A tabuada de {n} é:")
 print(f"{n} x 1 = {n * 1}")
 print(f"{n} x 2 = {n * 2}")
