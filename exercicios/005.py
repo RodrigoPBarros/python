@@ -1,5 +1,6 @@
-n1 = float(input("Digite a primeira nota: "))
-n2 = float(input("Digite a segunda nota: "))
-media = (n1 + n2) / 2
+n = int(input("Digite um número: "))
+a = n - 1
+s = n + 1
+
 print("======Resultado======")
-print(f"A média entre {n1} e {n2} é {media}.")
+print(f"O antecessor de {n} é {a} e o sucessor é {s}.")

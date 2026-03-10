@@ -1,6 +1,8 @@
-metros = int(input("Digite a distância em metros: "))
-cm = metros * 100
-mm = metros * 1000
+n = int(input("Digite um número: "))
+dobro = n * 2
+triplo = n * 3
+raiz_quadrada = n ** 0.5
 print("======Resultado======")
-print(f"{metros} metros equivalem a {cm} centímetros.")
-print(f"{metros} metros equivalem a {mm} milímetros.")
+print(f"O dobro de {n} é {dobro}.")
+print(f"O triplo de {n} é {triplo}.")
+print(f"A raiz quadrada de {n} é {raiz_quadrada}.")

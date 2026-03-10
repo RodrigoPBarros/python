@@ -1,6 +1,6 @@
-reais = float(input('Digite quantos reais você tem na carteira: '))
-dolar = reais / 5.22
-euro = reais / 6.06
-libra = reais / 7.01
-print("=======DESAFIO 008=======")
-print(f"Com R${reais:.2f} você pode comprar US${dolar:.2f}, €{euro:.2f} ou £{libra:.2f}.")
+metros = int(input("Digite a distância em metros: "))
+cm = metros * 100
+mm = metros * 1000
+print("======Resultado======")
+print(f"{metros} metros equivalem a {cm} centímetros.")
+print(f"{metros} metros equivalem a {mm} milímetros.")

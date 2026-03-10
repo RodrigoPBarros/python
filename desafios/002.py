@@ -1,0 +1,5 @@
+dia = int(input("Digite o dia do seu nascimento: "))
+mes = int(input("Digite o mês do seu nascimento: "))
+ano = int(input("Digite o ano do seu nascimento: "))
+print("=======DESAFIO 002=======")
+print(f"Você nasceu no dia {dia} do mês {mes} do ano de {ano}.")
