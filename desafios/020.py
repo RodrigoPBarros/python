@@ -17,4 +17,4 @@ lista = [aluno1, aluno2, aluno3, aluno4]
 escolhido = random.choice(lista)
 
 print("=======DESAFIO 020=======")
-print(f"A odem de apresentação será: {random.sample(lista, k=4)}.")
+print(f"A ordem de apresentação será: {cores['azul_claro']}{random.sample(lista, k=4)}{cores['limpa']}.")
