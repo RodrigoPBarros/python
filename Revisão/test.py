@@ -1,6 +1,5 @@
-x = int(input("Digite um número:"))
-y = int(input("Digite outro: "))
-
-x = x / y
-y = y / x
-print(y)
+def foo(n):
+    if n > 1:
+        return n * foo(n-1)
+    return n
+print(foo(4))
