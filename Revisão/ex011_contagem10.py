@@ -1,4 +1,4 @@
-n = 0
-for n in range(11):
-    n += 1
-print(n)
+
+for i in range(1, 11):
+    print(i, end=" ")
+print("Fim do programa")
